@@ -7,15 +7,12 @@ This script models a simple 3-ring hexagonal fuel assembly using OpenMC.
 It demonstrates material definition, pin cell construction, and hexagonal
 lattice implementation.
 
-Author: Saad Jamshed
-Project: OpenMC Documentation Portfolio
-
 Requirements:
 - Python 3.x
 - OpenMC installed and configured
 
 Run:
-    python hex_assembly.py
+    python3 hex_fuel_assembly.py
 """
 
 import openmc
