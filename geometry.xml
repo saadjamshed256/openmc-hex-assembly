@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<geometry>
+  <cell id="1" material="1" region="-1" universe="1"/>
+  <cell id="3" material="3" universe="3"/>
+  <cell fill="4" id="4" region="3 -4" universe="5"/>
+  <hex_lattice id="4" n_rings="3">
+    <pitch>1.0</pitch>
+    <outer>3</outer>
+    <center>0.0 0.0</center>
+    <universes>
+  1
+ 1 1
+1 1 1
+ 1 1
+1 1 1
+ 1 1
+1 1 1
+ 1 1
+  1</universes>
+  </hex_lattice>
+  <surface coeffs="0.0 0.0 0.4" id="1" type="z-cylinder"/>
+  <surface coeffs="-1.0" id="3" type="z-plane"/>
+  <surface coeffs="1.0" id="4" type="z-plane"/>
+</geometry>
